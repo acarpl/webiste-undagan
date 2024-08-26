@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Digital</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div id="Cover"> <div class="text">
+      <h6>The Wedding Of</h6>
+      <h1>Jeno & Karina</h1>
+      <h3>Sabtu, 29 Oktober 2025</h3>
+      <br /><br>
+      <h6>Dengan Hormat kami mengundang</h6><br>
+      <p>Nabila dan Suami</p>
+      <br /><br>
+      <center><button class="button button1">Open invitation</button></center>
+    </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="main">
+      <div class="qoutes">
+        Artinya: "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+        untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan
+        merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan
+        sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat
+        tanda-tanda bagi kaum yang berfikir." (QR.Ar-Rum:21)
+      </div>
+      <div class="pengantin">
+        <img src="image/gambar6.jpg"
+        style="width: 100%; max-width: 600px; border-radius: 15px;"
+      </div>
+        <h2>Jeno & Karina</h2>
+      </div>
+      <div class="profil">
+        <div class="pengantin-wanita">
+          <img src="image/gambar8.png" alt="pengantin wanita" />
+          <p>
+            Nama Lengkap: Karina aja
+            <br />
+            Nama Orang Tua: gatau
+            <br />
+            Social Media: leejenoww
+          </p>
+        </div>
+        <div class="pengantin-laki-laki">
+          <img src="image/gambar8.png" alt="pengantin-laki-laki" />
+          <p>
+            Nama Lengkap: Lee Jeno
+            <br />
+            Nama Orang Tua: Kila
+            <br />
+            Social Media: leeeejenowww
+          </p>
+        </div>
+      </div>
+      <div class="event">
+        <h3>Event Details</h3>
+        <p><strong>Akad: </strong></p>
+        <p><strong>Resepsi: </strong></p>
+        <p><strong>Location: </strong></p>
+      </div>
+      <center>
+        <h2>gallery</h2>
+      </center>
+      <div id="gallery">
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="slider">
+              <img src="image/gambar8.png" alt="" />
+            </div>
+            <div class="slider">
+              <img src="image/gambar8.png" alt="" />
+            </div>
+            <div class="slider">
+              <img src="image/gambar8.png" alt="" />
+            </div>
+          </div>
+
+          <button class="button-prev">prev</button>
+          <button class="button-next">next</button>
+        </div>
+        <!-- <video controls src=""></video> -->
+      </div>
+      <div id="table"></div>
+      <div id="RSVP">
+        <h2>RSPV</h2>
+        <form action="#" method="post">
+          <label for="nama">Nama Lengkap:</label><br />
+          <input type="text" id="nama" name="nama" /><br />
+          <label for="nomor">No Telp:</label><br />
+          <input type="number" id="nomor" name="phone" /><br />
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" /><br />
+
+          <label> Apakah anda bersedia hadir:</label><br />
+          <input type="radio" name="kehadiran" id="hadir" value="hadir" />
+          <label for="hadir">Hadir</label>
+          <input
+            type="radio"
+            name="kehadiran"
+            id="tidak hadir"
+            value="tidak hadir"
+          />
+          <label for="tidak hadir"> Tidak Hadir</label>
+          <br />
+          <label for="jumlah-tamu">Jumlah Tamu yang hadir</label>
+          <select name="jumlah-tamu" id="jumlah-tamu">
+            <option value="1">1 Orang</option>
+            <option value="2">2 Orang</option>
+            <option value="3">3 Orang</option>
+            <option value="4">4 Orang</option>
+            <option value="5">5 Orang</option>
+          </select>
+        </form>
+        <div id="story">
+          <h3>Our Love Story</h3>
+          <img src="#" alt="friend" />
+          <p>2019</p>
+          <img src="#" alt="tunangan" />
+          <p>2024</p>
+          <img src="#" alt="finally" />
+          <p>2030</p>
+        </div>
+        <div id="transfer">
+          <img src="" alt="">
+          <input type="text" id="bank=account" value="98493710"></input> 
+          <button class="copy-btn" onclick="copyToClipboard('98493710')">
+            Copy
+          </button>
+        </div>
+        <div id="pesan">
+          <form action="#" method="post">
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" style="resize:none">
+            </textarea>
+            <br>
+            <button type="submit" class="submit-btn">
+              <a href="#closing">bagikan pesan </a>
+            </button>
+          </form> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div id="closing">
+          <h1>Terima Kasih Atas Perhatian Anda</h1>
+          <p>Kehadiran anda akan sangat berarti bagi kami</p>
+        </div>
+      </div>
+    </div> <script>
+    const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.button-next');
+const prevButton = document.querySelector('.button-prev');
+let currentSlideIndex = 0;
+
+nextButton.addEventListener("click", () => {
+    currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+    track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+});
+
+prevButton.addEventListener("click", () => {
+    currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+    track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+});
+</script>
+  </body>
+</html>
